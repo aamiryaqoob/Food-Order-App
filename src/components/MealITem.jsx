@@ -4,9 +4,12 @@ export default function MealItem({ meal }) {
             <img src={`http://localhost:3000/${meal.image}`} alt="Meal Image" />
             <div className="meal-item-title">
                 <h3>{meal.name}</h3>
-                <p>{meal.description}</p>
+                <p className="meal-item-price">{meal.price}</p>
+                <p className="meal-item-description">{meal.description}</p>
             </div>
-            <p>{meal.price}</p>
+            <p className="meal-item-actions">
+                <button>Add to Cart</button>
+            </p>
         </article>
     </li>
 }

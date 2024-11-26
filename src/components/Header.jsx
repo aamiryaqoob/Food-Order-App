@@ -6,7 +6,7 @@ const Header = () => {
         <header id='main-header'>
             <div id='title'>
                 <img src={Logo} alt="Logo" />
-                <h1>React FoodOrder</h1>
+                <h1>React Food Order</h1>
             </div>
             <nav>
                 <button>Cart (0)</button>
