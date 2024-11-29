@@ -1,4 +1,4 @@
-import { currencyFormatter } from "../util/formating";
+import { currencyFormatter } from "../util/formatting";
 
 export default function MealItem({ meal }) {
     return <li className="meal-item">
